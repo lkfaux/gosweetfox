@@ -1,0 +1,105 @@
+h1 {
+    font-family: Georgia;
+    color: #fc7f03;
+}
+
+p {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 400px;
+    padding: 20px 0 20px 60px;
+}
+
+nav {
+    float: right;
+    padding: 40px 10% 30px 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 40px 0 0;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+}
+
+Nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fc7f03;
+}
+
+.topbar {
+    margin: 0px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    background-color: #fc7f03;
+    padding: 10px 0 5px 0;
+}
+
+.mainsection {
+    height: 400px;
+    margin: auto;
+    padding: 0 0 20px 0;
+}
+
+.main-image {
+    width: 400px;
+    float: left;
+    margin: auto;
+    padding: 0 0 0 15%;
+}
+
+.mainhome {
+    text-align: center;
+    float: left;
+    padding: 40px 0 0 40px;
+}
+
+.mainhome h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+.mainhome p {
+    font-size: 18px;
+    font-family: Arial;
+}
+
+button {
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(42, 124, 42);
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 60px;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: .75;
+    cursor: pointer;
+}
+
+footer {
+    height: 80px;
+    background-color: lightgray;
+    color: black;
+    padding: 20px 0 0 40px;
+}
